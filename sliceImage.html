@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="sliceImage.css" />
+	<style type="text/css">
+		#content{
+			width: 990px;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div class="resizerbox">
+			<img id="resizerImg" src="img/pic1.jpg" />
+		</div>
+		<input type="file" class="upload" />
+
+	</div>
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="base.js"></script>
+	<script type="text/javascript" src="sliceImage.js"></script>
+	<script type="text/javascript" src="{-$cdn_javascript_url-}fileuploader.js></script>
+	<script type="text/javascript">
+		$(function(){
+
+
+				$("#resizerImg").SliceImage({
+
+				});
+
+		});
+
+
+	</script>
+
+	
+</body>
+</html>
