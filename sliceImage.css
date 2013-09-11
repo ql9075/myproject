@@ -1,0 +1,9 @@
+.slice-dragBtn{
+	cursor: se-resize;
+	background: #333;
+	z-index: 405;
+	opacity: .7;
+	border: 1px solid #FFF;
+	margin-top: -1px;
+	margin-left: -1px;
+}
